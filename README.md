@@ -68,16 +68,16 @@ To get started with the project, follow these steps:
 <table>
 
   <tr>
-    <td valign="top"><img src="![emplist](https://github.com/ganesh-vallabhareddy/Employee-Data-Management-App-using-Angular-and-PostgreSQL/assets/110174850/1f1aacb4-8d61-41f0-9b0c-9bcf9694e9c7)"></td>
-    <td valign="top"><img src="![add_emp](https://github.com/ganesh-vallabhareddy/Employee-Data-Management-App-using-Angular-and-PostgreSQL/assets/110174850/5ba33cf4-4532-4ce8-bee3-e3e1890cb6f3)"></td>
+    <td valign="top"><img src="https://github.com/ganesh-vallabhareddy/Employee-Data-Management-App-using-Angular-and-PostgreSQL/assets/110174850/1f1aacb4-8d61-41f0-9b0c-9bcf9694e9c7"></td>
+    <td valign="top"><img src="https://github.com/ganesh-vallabhareddy/Employee-Data-Management-App-using-Angular-and-PostgreSQL/assets/110174850/5ba33cf4-4532-4ce8-bee3-e3e1890cb6f3"></td>
     </td>
   </tr>
  </table>
 <table>
 &nbsp;
   <tr>
-    <td valign="top"><img src="![edit_emp](https://github.com/ganesh-vallabhareddy/Employee-Data-Management-App-using-Angular-and-PostgreSQL/assets/110174850/bcb5ce83-7193-4a95-aa77-ee7350d39716)"></td>
-    <td valign="top"><img src="![dept](https://github.com/ganesh-vallabhareddy/Employee-Data-Management-App-using-Angular-and-PostgreSQL/assets/110174850/409ce83b-7863-4949-ad32-98bda1a5d57c)"></td>
+    <td valign="top"><img src="https://github.com/ganesh-vallabhareddy/Employee-Data-Management-App-using-Angular-and-PostgreSQL/assets/110174850/bcb5ce83-7193-4a95-aa77-ee7350d39716"></td>
+    <td valign="top"><img src="https://github.com/ganesh-vallabhareddy/Employee-Data-Management-App-using-Angular-and-PostgreSQL/assets/110174850/409ce83b-7863-4949-ad32-98bda1a5d57c"></td>
     </td>
   </tr>
  </table>
@@ -85,8 +85,8 @@ To get started with the project, follow these steps:
 <table>
 &nbsp;
   <tr>
-    <td valign="top"><img src="![highcharts](https://github.com/ganesh-vallabhareddy/Employee-Data-Management-App-using-Angular-and-PostgreSQL/assets/110174850/d5f01bcf-784b-48ed-9f79-4e8ba974484e)"></td>
-    <td valign="top"><img src="![highcharts 2](https://github.com/ganesh-vallabhareddy/Employee-Data-Management-App-using-Angular-and-PostgreSQL/assets/110174850/e36fc54b-8db6-4bf2-9735-4934c58d61d1)"></td>
+    <td valign="top"><img src="https://github.com/ganesh-vallabhareddy/Employee-Data-Management-App-using-Angular-and-PostgreSQL/assets/110174850/d5f01bcf-784b-48ed-9f79-4e8ba974484e"></td>
+    <td valign="top"><img src="https://github.com/ganesh-vallabhareddy/Employee-Data-Management-App-using-Angular-and-PostgreSQL/assets/110174850/e36fc54b-8db6-4bf2-9735-4934c58d61d1"></td>
     </td>
   </tr>
  </table>
