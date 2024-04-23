@@ -1,0 +1,13 @@
+/* analytics.component.css */
+
+.btn-group .btn {
+    margin-right: 5px; /* Adjust spacing between buttons */
+  }
+  
+  .btn-group .btn-primary.active,
+  .btn-group .btn-primary:focus,
+  .btn-group .btn-primary:hover {
+    background-color: #007bff; /* Active and hover state background color */
+    border-color: #007bff; /* Active and hover state border color */
+  }
+  

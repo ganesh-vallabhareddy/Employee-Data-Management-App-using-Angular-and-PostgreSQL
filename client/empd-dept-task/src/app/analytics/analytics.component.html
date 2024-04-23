@@ -1,0 +1,19 @@
+<!-- analytics.component.html -->
+
+<div class="btn-group" role="group" aria-label="Chart Types">
+    <button type="button" class="btn btn-success" (click)="selectChart('genderBarChart')">Gender Ratio (Bar Graph)</button>
+    <button type="button" class="btn btn-success" (click)="selectChart('genderPieChart')">Gender Ratio (Pie Chart)</button>
+    <button type="button" class="btn btn-success" (click)="selectChart('ageBarChart')">Age (Bar Graph)</button>
+    <button type="button" class="btn btn-success" (click)="selectChart('agePieChart')">Age (Pie Chart)</button>
+    <button type="button" class="btn btn-success" (click)="selectChart('ratingBarChart')">Ratings (Bar Chart)</button>
+    <button type="button" class="btn btn-success" (click)="selectChart('ratingPieChart')">Ratings(Pie Chart)</button>
+  </div>
+  <br><br>
+  
+  <div *ngIf="selectedChartType === 'genderBarChart'" [chart]="genderBarChart"></div>
+  <div *ngIf="selectedChartType === 'genderPieChart'" [chart]="genderPieChart"></div>
+  <div *ngIf="selectedChartType === 'ageBarChart'" [chart]="ageBarChart"></div>
+  <div *ngIf="selectedChartType === 'agePieChart'" [chart]="agePieChart"></div>
+  <div *ngIf="selectedChartType === 'ratingBarChart'" [chart]="ratingBarChart"></div>
+  <div *ngIf="selectedChartType === 'ratingPieChart'" [chart]="ratingPieChart"></div>
+  

@@ -1,0 +1,63 @@
+<div class="container mt-5">
+  <h2 class="text-center">Department List</h2>
+  <div class="row justify-content-center">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Department No</th>
+          <th scope="col">Department Name</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let department of departments">
+          <td>{{ department.dept_no }}</td>
+          <td>{{ department.dept_name }}</td>
+          <td>
+            <button (click)="editDepartment(department)" class="btn btn-primary">Edit</button>
+            <button (click)="deleteDepartment(department.dept_no)" class="btn btn-danger" style="margin-left: 5px">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="row justify-content-center">
+    <button (click)="addDepartmentForm()" class="btn btn-success">Add New Department</button>
+  </div>
+
+  <!-- Add Department Form -->
+  <div *ngIf="showAddForm" class="row justify-content-center mt-5">
+    <div class="col-md-6">
+      <h3 class="text-center">Add New Department</h3>
+      <form (submit)="onSubmit('add')">
+        <div class="form-group">
+          <label for="dept_no">Department No</label>
+          <input type="text" class="form-control" id="dept_no" name="dept_no" [(ngModel)]="newDepartment.dept_no" required>
+        </div>
+        <div class="form-group">
+          <label for="dept_name">Department Name</label>
+          <input type="text" class="form-control" id="dept_name" name="dept_name" [(ngModel)]="newDepartment.dept_name" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Edit Department Form -->
+  <div *ngIf="showEditForm" class="row justify-content-center mt-5">
+    <div class="col-md-6">
+      <h3 class="text-center">Edit Department</h3>
+      <form (submit)="onSubmit('edit')">
+        <div class="form-group">
+          <label for="dept_no">Department No</label>
+          <input type="text" class="form-control" id="dept_no" name="dept_no" [(ngModel)]="editingDepartment.dept_no" required>
+        </div>
+        <div class="form-group">
+          <label for="dept_name">Department Name</label>
+          <input type="text" class="form-control" id="dept_name" name="dept_name" [(ngModel)]="editingDepartment.dept_name" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
